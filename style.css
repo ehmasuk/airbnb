@@ -1,0 +1,208 @@
+*{
+    list-style-type: none;
+    color: #ffffff !important;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 90% !important;
+}
+.fas{
+    color: black !important;
+}
+:hover{
+    text-decoration: none !important;
+}
+/* header section */
+.header-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.438),rgba(0, 0, 0, 0.425)),url(img/bg2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+}
+.header-top{
+    padding-top: 30px;
+}
+.header-section-middle-col a{
+    margin-right: 14px !important;
+}
+.mini-nav{
+    background-color: #FFFFFF;
+}
+.under-header-top ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 30px;
+}
+.top-perag{
+    font-size: 11px;
+    font-weight: 700;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    color: #222222 !important;
+}
+.bottom-perag{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -15px;
+    color: #717171 !important;
+}
+.search-icon-parent{
+    position: relative;
+}
+.search-icon{
+    border-radius: 50%;
+    background-color: red;
+    padding: 12px 16px;
+    position: absolute;
+    right: 10px;
+}
+.sml-device-int{
+    position: relative;
+}
+.sml-device-int::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f002";
+    position: absolute;
+    left: 35px;
+    top: 12px;
+    cursor: pointer;
+    color: black;
+}
+input{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.header-bottom h1{
+    font-size: 35px;
+    margin-top: 100px;
+}
+/* caed-section */
+.card-section{
+    padding: 50px 0;
+}
+img[alt="advertise"]{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-section .card{
+    border-radius: 20px !important;
+    box-shadow: 0px 4px 9px -1px rgba(0,0,0,0.3);
+    min-height: 315px;
+}
+.card-section .card h5{
+    color: black !important;
+    margin: 10px 0 5px 10px;
+}
+.card-section .card p{
+    color: #717171 !important;
+    margin-left: 10px;
+    font-size: 15px;
+}
+/* online experience section */
+.online-experience-section{
+    background-color: black;
+}
+img[alt="gallary"]{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+img[src="img/gallary2.jpg"]{
+    height: 185px !important;
+}
+img[src="img/gallary3.jpg"]{
+    height: 180px !important;
+}
+.online-experience-section .card{
+    border-radius: 20px !important;
+    background-color: black;
+}
+.online-experience-section .card .card-footer{
+    border-radius:0px 0px 20px 20px !important;
+    padding-bottom: 40px;
+    background-color: #222222;
+}
+/* we-embrace-section */
+.we-embrace-section{
+    padding: 85px 0;
+}
+.we-embrace-section p{
+    color: black !important;
+}
+.we-embrace-section button{
+    color: black !important;
+    width: 108px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.we-embrace-section button:hover{
+    border: 1px solid black;
+}
+.we-embrace-section h2{
+    color: #222222 !important;
+    font-weight: 700;
+}
+/* destination-section */
+.destination-section {
+    padding: 60px 0;
+    border-bottom:1px solid #DDDDDD;
+}
+.destination-section h4{
+    color: black !important;
+    padding-bottom: 10px;
+}
+.underlined-colmn{
+    border-bottom:1px solid #DDDDDD;
+    padding: 20px 0 !important;
+}
+.underlined-colmn a{
+    color: black !important;
+    font-weight: 800;
+}
+.underlined-colmn a:hover{
+    text-decoration: underline !important;
+}
+/* last-section */
+.last-section {
+    background-color: #F7F7F7;
+}
+.last-section *{
+    color: black !important;
+}
+.last-section .row{
+    border-bottom: 1px solid #DDDDDD;
+}
+.last-section ul{
+    padding: 20px 0;
+}
+.last-section ul li:first-child{
+    font-weight: 600;
+    font-size: 13px;
+}
+.last-section ul li{
+    font-size: 14px;
+    margin: 15px 0 !important;
+}
+.last-section ul li a:hover{
+    text-decoration: underline !important;
+}
+/* footer section */
+.footer-section {
+    padding: 20px;
+    background-color: #F7F7F7;
+}
+.footer-section .fab{
+    font-size: 20px !important;
+    margin-right: 25px;
+}
+.footer-section *{
+    color: black !important;
+    font-size: 14px;
+}
+.footer-section ul li{
+    display: inline-block;
+}
